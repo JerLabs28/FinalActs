@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    color: white;
+    color: black;
 }
 
 body{
@@ -15,7 +15,7 @@ body{
 .container{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(37,0,37);
+    background-image: linear-gradient(pink, purple);
 }
 
 header{
@@ -36,7 +36,7 @@ header li a{
 }
 
 header li a:hover{
-    color: rgb(243, 126, 243);
+    color: rgb(221, 11, 221);
     border-bottom: 2px solid rgb(243, 126, 243,0.5);
 }
 
@@ -53,7 +53,7 @@ header li a:hover{
 }
 
 .info h4 span{
-    color:rgb(243, 126, 243);
+    color: rgb(179, 21, 157);
     font-size: 1.5rem;
 }
 .info h1{
@@ -69,5 +69,5 @@ header li a:hover{
 }
 
 .info p span{
-    color: rgb(243, 126, 243);
+    color: rgb(179, 21, 157);
 }
